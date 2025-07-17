@@ -12,7 +12,7 @@ app.use(express.json());
 const dbuser = encodeURIComponent(process.env.DBUSER);
 const dbpass = encodeURIComponent(process.env.DBPASS);
 
-// mongoose.connect(`mongodb://localhost:27017/merncafe`).then(() => {
+// mongoose.connect(`mongodb://localhost:27017/mern-cafe`).then(() => {
 //   app.listen(8080, () => {
 //     console.log("Server started");
 //   });
