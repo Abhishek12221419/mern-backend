@@ -23,7 +23,7 @@ mongoose
     `mongodb+srv://${dbuser}:${dbpass}@cluster0.qjxhv.mongodb.net/mern-cafe?retryWrites=true&w=majority&appName=Cluster0`
   )
   .then(() => {
-    app.listen(8080, () => {
+    app.listen(8000, () => {
       console.log("Server started");
     });
   });
